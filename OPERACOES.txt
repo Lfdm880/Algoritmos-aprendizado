@@ -1,0 +1,29 @@
+Algoritmo "operacoes"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 18/01/2022
+Var
+   // Seção de Declarações das variáveis
+   N1:real
+   N2:real
+   D, M:real
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   //msg<- "Ola, Calculo4!"
+   escreval("Qual eh o primero numero: ")
+   leia(N1)
+   escreval("Qual eh o psegundo numero: ")
+   leia(N2)
+   //Somar sem precisar de outra variável
+   escreval("A soma eh ", N1+N2)
+   escreval("A subtração eh ", N1-N2)
+   //utilizando uma nova variável
+
+   D <-N1/N2
+   escreval("A divisao entre: ",N1," e ",N2, " eh igual a", D)
+   M <-(N1+N2)/2
+   escreval("A média entre: ",N1," e ",N2, " eh igual a", M)
+
+Fimalgoritmo

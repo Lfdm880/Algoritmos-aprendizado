@@ -1,0 +1,22 @@
+Algoritmo "expectative_vida_fumante"
+// 
+//  
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 25/01/2022
+Var
+// Seção de Declarações das variáveis 
+ A,B,C, T, M: real
+ //A recebe 365, B irá receber do usuário os anos e C a quantidade de cigarros
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+ M<- 10
+ A<-365
+ escreval("Digite quantos cigarros você fuma por dia")
+ leia(C)
+ escreval("Digite ha quantos anos você fuma")
+ leia(B)
+ 
+ T<-(C)*(B)*(M)
+ escreval("A quantidade de minutos de vida que você irá perder eh: ",T)
+Fimalgoritmo

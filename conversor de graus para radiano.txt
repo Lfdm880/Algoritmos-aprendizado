@@ -1,0 +1,22 @@
+Algoritmo "conversor"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 18/01/2022
+Var
+   // Seção de Declarações das variáveis
+   angulo, S, C, T:real
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   //msg<- "Ola, Calculo4!"
+   escreval("Qual eh o valor do angulo?: ")
+   leia(angulo)
+   S<- Sen(GraupRad(angulo))
+   escreval("o seno do angulo eh: ", S)
+   C<- Cos(GraupRad(angulo))
+   escreval("o cosseno do angulo eh: ", C)
+   T<- S/C
+   escreval("o seno do angulo eh: ", T)
+
+Fimalgoritmo

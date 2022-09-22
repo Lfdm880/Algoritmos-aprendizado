@@ -1,0 +1,23 @@
+Algoritmo "concessionária"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 25/01/2022
+Var
+// Seção de Declarações das variáveis 
+  km,D, pd:inteiro
+  v, p:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+  v<-0.20
+  pd<-90
+  escreval("Digite a quantidade de km")
+  leia(km)
+  escreval("Digite a quantidade de dias")
+  leia(D)
+  
+  p<- (km*v)+ (D*pd)
+  escreval("O total a ser pago eh: ", p)
+Fimalgoritmo
